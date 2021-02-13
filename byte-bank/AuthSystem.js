@@ -1,5 +1,14 @@
 export class AuthSystem{
-    static login(employee, password){
-        return employee.password == password;
+    static login(entity, password){
+        if(this.isAuthenticable(entity)){
+            return entity.authenticate(password);
+        }
+        
+        return false;   
     }
+
+    static isAuthenticable(entity){
+        return "authenticate" in entity &&
+        entity.authenticate instanceof Function
+    } 
 }

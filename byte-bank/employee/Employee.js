@@ -1,16 +1,12 @@
 export class Employee{
-    constructor(id, name, salary){
+    constructor(id, name, salary, password){
         this._id = id;
         this._name = name;
         this._salary = salary;
-        this._password = null;
+        this._password = password;
     }
 
-    setPassword(pass){
-        this._password = pass;
-    }
-
-    get password(){
-        return this._password;
+    authenticate(password){
+        return password == this._password;
     }
 }
