@@ -1,4 +1,4 @@
-.botao {
+.button {
     display: block;
     background-color: var(--cor-primaria);
     border-radius: 7px;
@@ -7,25 +7,25 @@
     max-width: 20rem;
     padding: 1.125rem;
     box-sizing: border-box;
-    color: var(--cor-contraste-claro);
-    font-size: var(--fonte-tamanho-botao);
+    color: var(--color-contrast-bright);
+    font-size: var(--font-size-button);
     align-self: center;
     text-align: center;
 }
 
-.botao-simples {
+.simple-button {
     border: none;
     background-color: unset;
 }
 
-.botao-simples--adicionar {
-    color: var(--cor-primaria);
+.simple-button--add {
+    color: var(--color-first);
 }
 
-.botao-simples--excluir {
-    color: var(--cor-aviso);
+.simple-button--delete {
+    color: var(--color-warning);
 }
 
-.botao-simples--editar {
-    color: var(--cor-sucesso);
+.simple-button--edit {
+    color: var(--color-success);
 }

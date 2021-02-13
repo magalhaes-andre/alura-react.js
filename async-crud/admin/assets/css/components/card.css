@@ -1,7 +1,7 @@
-.cartao {
-    background-color: var(--cor-contraste-claro);
+.card {
+    background-color: var(--color-contrast-bright);
     border-radius: 10px;
-    box-shadow: var(--sombra);
+    box-shadow: var(--shadow);
     width: 100%;
     max-width: 45rem;
     padding: 1.75rem;
@@ -9,7 +9,7 @@
     margin-bottom: 1rem;
 }
 
-.cartao__titulo {
-    font-size: var(--fonte-tamanho-cartao-titulo);
+.card_title {
+    font-size: var(--font-size-card-title);
     margin-bottom: 1rem;
 }

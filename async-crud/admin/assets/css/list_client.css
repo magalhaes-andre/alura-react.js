@@ -1,10 +1,10 @@
-.clientes-container {
+.clients-container {
     padding-right: 1rem;
     padding-left: 1rem;
 }
 
 @media(min-width: 1200px) {
-	.clientes-container {
+	.clients-container {
 		padding-left: calc((100vw - 900px)/2);
 		padding-right: calc((100vw - 900px)/2);
 	}

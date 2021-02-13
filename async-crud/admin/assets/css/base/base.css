@@ -1,10 +1,10 @@
 @import url(_reset.css);
-@import url(_variaveis.css);
+@import url(_variables.css);
 
 body {
-	background-color: var(--cor-secundaria);
-	color: var(--cor-contraste-escuro);
-	font-family: var(--fonte-familia-corpo);
+	background-color: var(--color-second);
+	color: var(--color-contrast-dark);
+	font-family: var(--font-family-body);
 	overflow-x: hidden;
 }
 
@@ -17,12 +17,12 @@ body {
 	display: flex;
 }
 
-.flex--centro {
+.flex--center {
 	align-items: center;
 	justify-content: center;
 }
 
-.flex--coluna {
+.flex--column {
 	flex-direction: column;
 }
 

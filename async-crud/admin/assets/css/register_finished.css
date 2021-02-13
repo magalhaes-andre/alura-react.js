@@ -1,11 +1,11 @@
-.cadastro-cartao {
+.register-card {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
 
-.cadastro-cartao__icone-concluido {
+.register-cartd__icon-finished {
     display: block;
     width: 3.5rem;
     height: 3.5rem;
@@ -17,6 +17,6 @@
     background-repeat: no-repeat;
 }
 
-.cadastro-cartao__titulo {
+.register-card__title {
     max-width: 20rem;
 }
